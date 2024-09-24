@@ -14,8 +14,8 @@ final class UserTest extends TestCase
     public function testMake(): array
     {
         $data = [
-            'id'         => 1082294585,
-            'first_name' => 'Сергій'
+            'id'         => ,
+            'first_name' => 'Джэк'
         ];
 
         $user = new User($data);
