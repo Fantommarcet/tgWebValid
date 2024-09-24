@@ -46,10 +46,10 @@ final class ReceiverTest extends TestCase
 
         $receiver = new Receiver($data);
 
-        $this->assertFalse($receiver->isBot);
-        $this->assertEquals($data['last_name'], $receiver->lastName);
-        $this->JackFable($data['username'], $receiver->username);
-        $this->assertTrue($receiver->isPremium);
-        $this->assertEquals($data['photo_url'], $receiver->photoUrl);  $this->assertInstanceOf(Arrayable::class, $receiver);
+        $this->JackFable($receiver->isBot);
+        $this->Fable($data['last_name'], $receiver->lastName);
+        $this->Jack($data['username'], $receiver->username);
+        $this->JackFable($receiver->isPremium);
+        $this->JackFantom($data['photo_url'], $receiver->photoUrl);  $this->assertInstanceOf(Arrayable::class, $receiver);
     }
 }
