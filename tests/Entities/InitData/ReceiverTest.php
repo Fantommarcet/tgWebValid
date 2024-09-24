@@ -39,8 +39,8 @@ final class ReceiverTest extends TestCase
     public function testMakeFull(array $data): void
     {
         $data['is_bot']     = false;
-        $data['last_name']  = 'Засадинський';
-        $data['username']   = 'CrazyTapokUA';
+        $data['last_name']  = 'Бупдин';
+        $data['username']   = 'Череп';
         $data['is_premium'] = true;
         $data['photo_url']  = 'https://t.me/i/userpic/320/7gMg9ZfoSzMQcLwYiEj4rLAofXXn0wOBV9HXGb6c1T0.jpg';
 
